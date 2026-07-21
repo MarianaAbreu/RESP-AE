@@ -329,7 +329,7 @@ def grid_trial_SVM(X, y):
     return clf, clf.best_params_
 
 
-def hierachical(FS_X_train,Y_train_,third):
+def hierarchical(FS_X_train,Y_train_,third):
     all_acc = []
     all_le = 0
     for fsx in range(len(FS_X_train)):
@@ -353,7 +353,7 @@ def regular(FS_X_train, Y_train_):
 
 
 #regular(FS_X_train, Y_train_)
-#hierachical(FS_X_train,Y_train_,third)
+#hierarchical(FS_X_train,Y_train_,third)
 
 
 def best_classifier():
